@@ -1,4 +1,4 @@
-# Hackthemidlands 2020 Winning Project - Fakebook - the social media education platform
+# Fakebook - the social media education platform - Hackthemidlands 2020 Winning Project - 
 
 This project was our winning submission for the Hack the Midlands 2020 Hackathon and was created by Joseph Shepherd and Bolu Edun. 
 
