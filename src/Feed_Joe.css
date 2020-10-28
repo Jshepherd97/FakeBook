@@ -1,0 +1,13 @@
+.feed {
+    flex: 1;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey_box {
+    height: 300px;
+    background-color: #f1f2f5;
+}

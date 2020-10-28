@@ -1,0 +1,132 @@
+.friends_title{
+    margin-top: 4px;
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: xx-large;
+    cursor: default;
+}
+
+.newrequests_title{
+    margin-top: 4px;
+    margin-left: 4px;
+    font-size: large;
+    cursor: default;
+}
+
+.friendRequest {
+    border-radius: 0px 0px 4px 4px;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 78px;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75)
+}
+
+.requestbox{
+    /* height: 90px; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.requestbox:hover{
+    background-color: lightgray;
+}
+
+.avatarwrapper{
+    height:100%;
+    width:20%;
+    align-items: center;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.namewrapper{
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:70%;
+}
+
+.confirm_button{
+    width:45%;
+    height: 40%;
+    background-color: #2e81f4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-top: 12px;
+}
+
+.confirm_button:hover{
+    cursor: pointer;
+}
+
+.delete_button{
+    width:45%;
+    height: 40%;
+    background-color: #b5b5b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.delete_button:hover{
+    cursor: pointer;
+}
+
+.buttonwrapper{ 
+    padding: 0px 0px;
+    height:50%;
+    display:flex;
+    flex-direction: row;
+}
+
+.name{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.name:hover{
+    cursor: default;
+}
+
+.friends{
+    margin-top: 5px;
+    font-size: small;
+}
+
+.friends:hover{
+    cursor: default;
+}
+
+.buttonname{
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#friends {
+    top: 80px;
+}
+
+/* #hidden_box {
+    background-color: rgba(0, 0, 0, 0);
+    height: 80px;
+} */

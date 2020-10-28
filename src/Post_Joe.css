@@ -1,0 +1,128 @@
+.post {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+}
+
+.post__top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.post__avatar {
+    margin-right: 10px;
+}
+
+.post__topInfo > h3{
+    font-size: medium;
+}
+
+.post__topInfo > p {
+    font-size: small;
+    color: gray;
+}
+
+.post__bottom {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+}
+
+.post__image > img {
+    width: 100%;
+}
+
+.post__options {
+    padding-top: 10px;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.post__option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+
+.post__option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+
+.post__option > p {
+    margin-left: 10px;
+}
+
+.post__input {
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 999px;
+}
+
+.post__input > input {
+    border: none;
+    margin-left: 12px;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.MuiSvgIcon-root {
+    color:darkgray;
+    padding-left: 8px;
+}
+
+
+.post__comment {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 12px 24px 24px 24px;
+}
+
+.post__commentinput {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    background-color: #eff2f5;
+    border-radius: 999px;
+    padding: 6px 32px 6px 16px;
+}
+
+.post__commentinfo > h3{
+    font-size: medium;
+    margin: 2px;
+}
+
+.post__commentinfo > p {
+    font-size: small;
+    margin: 2px;
+    color: gray;
+}
+
+.report_button {
+    margin-left: 20px;
+}
+
+.hide {
+    display: none;
+  }
+
+  
